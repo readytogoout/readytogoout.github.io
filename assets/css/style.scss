@@ -1,0 +1,13 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body, h1, h2, h3, h4, h5, h6 {
+  background-color: #263e55;
+  color: #f6fbe9;
+}
+
+a, a:hover {
+  color: #bbe441;
+}
