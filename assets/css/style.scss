@@ -8,6 +8,37 @@ body, h1, h2, h3, h4, h5, h6 {
   color: #f6fbe9;
 }
 
-a, a:hover {
+strong {
+  color: #f6fbe9;
+}
+
+a {
   color: #bbe441;
+}
+
+a:hover {
+  color: #f6fbe9;
+  font-weight: normal;
+}
+
+.card {
+  background-color: inherit;
+  box-shadow: #172533 0px 5px 5px;
+}
+
+.card-header {
+  background-color: #172533;
+}
+
+.list-group {
+  background-color: inherit;
+}
+
+.list-group-item {
+  background-color: inherit;
+  border-color: #172533;
+}
+
+.list-group-item-action:hover {
+  background-color: #172533;
 }

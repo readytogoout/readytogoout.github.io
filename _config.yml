@@ -1,11 +1,10 @@
 theme: jekyll-theme-minimal
 title: "ready to go out"
-description: //TODO slogan ausdenken
-logo: logo.png
+logo: /branding/png/logo_schrift.png
 show_downloads: false
 timezone: Europe/Berlin
 lang: de
-url: "readytogoout.de"
+url: "https://readytogoout.games"
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
