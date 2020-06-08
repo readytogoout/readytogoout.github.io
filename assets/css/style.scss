@@ -3,6 +3,49 @@
 
 @import "{{ site.theme }}";
 
+.sticky-item {
+  top: 50px;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+}
+
+.sidebar-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  margin-top: 50px;
+}
+
+/* Copied from site.theme to change breakpoints to fit to bootstrap */
+@media print, screen and (max-width: 992px) { div.wrapper { width: auto; margin: 0; }
+  header, section, footer { float: none; position: static; width: auto; }
+  header { padding-right: 320px; }
+  section { border: none; padding: 0; margin-top: 20px; }
+  header a small { display: inline; }
+  header ul { position: absolute; right: 50px; top: 52px; } }
+
+  .sidebar-item {
+    position: static;
+  }
+@media print, screen and (max-width: 768px) { body { word-wrap: break-word; }
+  header { padding: 0; }
+  header ul, header p.view { position: static; }
+  pre, code { word-wrap: normal; } }
+@media print, screen and (max-width: 576px) { body { padding: 15px; }
+  header ul { width: 99%; }
+  header li, header ul li + li + li { width: 33%; } }
+
+
+
+span {
+  word-wrap: break-word;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -11,6 +54,12 @@ body {
 .bg {
   position: fixed;
   opacity: 10%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
   width: 100vw;
   height: 100vh;
   background: url("/assets/img/watercolor_map.jpeg");
@@ -37,80 +86,8 @@ body {
   }
 }
 
-section {
-  margin-top: 50px;
-}
-
 h1 {
   font-size: 3rem;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  background-color: none;
-  color: #f6fbe9;
-}
-
-p:active, h1:active, h2:active, h3:active, h4:active, h5:active, h6:active {
-  color: #bbe441;
-}
-
-strong {
-  color: #f6fbe9;
-}
-
-a, a:focus {
-  color: #bbe441;
-}
-
-a:focus {
-  outline-color: inherit;
-  outline-style: dashed;
-  outline-width: thin;
-}
-
-a:hover {
-  color: #f6fbe9;
-  font-weight: normal;
-}
-
-.btn-primary {
-  background-color: #263e55;
-  border-color: #263e55;
-}
-
-.card {
-  background-color: #263e55;
-  box-shadow: #172533 0px 5px 5px;
-}
-
-.card-header {
-  background-color: #172533;
-}
-
-.list-group {
-  background-color: inherit;
-}
-
-.list-group-item {
-  background-color: inherit;
-  border-color: #172533;
-}
-
-.list-group-item-action:hover,
-.list-group-item-action:focus {
-  background-color: #172533;
-}
-
-.sidebar-item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.position-sticky {
-  top: 50px;
 }
 
 .hrow {
