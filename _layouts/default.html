@@ -119,7 +119,7 @@
     </script>
     {% endif %}
     <script>
-    $("h1, h2, h3, h4, h5, h6, p, div").html(function(_, html) {
+    $("h1, h2, h3, h4, h5, h6, div").html(function(_, html) {
        return html.replace("ready to go out", '<span class="font-righthand color-green">ready to go out</span>')
                   .replace("Ready to go out", '<span class="font-righthand color-green">Ready to go out</span>');
     });
