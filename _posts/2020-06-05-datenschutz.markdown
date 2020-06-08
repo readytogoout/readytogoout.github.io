@@ -38,6 +38,13 @@ allerdings ist deren Position dort für jeden Spieler unterschiedlich. Der selbe
 Weitere Informationen darüber, wo das Zuhause eines Spielers ist, erhälst du [weiter unten](#213-anschrift).
 Einige detaillierte Informationen über NPCs findest du auf der [Seite über den Spielablauf](/das-spiel/).
 
+### 1.4 Eventmaster
+Ein Eventmaster ist eine Person, die - zum Beispiel im Kontext einer Gruppenstunde - ein Event startet, verwaltet und die Spieler registriert und einweist.
+
+### 1.5 Event
+Ein Event ist eine (eventuell zeitlich begrenzte) Instanz des Spiels auf einem Server. Aktuell werden Events nur auf dem von uns gestellten Server angeboten.
+Self-hosted-events werden vermutlich bald folgen. Nur Spieler, die Mitglied eines Events sind, können sich bei dieser Instanz es Spiels anmelden.
+
 ## 2. Gesammelte Daten
 Generell muss unterschieden werden, zwischen dem Spiel und dieser Webseite. Besucher der Webseite geben andere Daten preis,
 als Spieler des Geländespiels. Beim Besuchen der Webseite müssen und werden i.d.R. auch keine Daten preisgegeben, die man zum Spielen des
@@ -49,7 +56,7 @@ zu erstellen.
 
 ### 2.1 Das Spiel "ready to go out"
 "Das Spiel" umfasst alle Webseiten und Links, die zum Geländespiel "ready to go out" gehören.
-Daten eines Spielers werden erfasst, wenn dieser sich registriert, oder von einem Organisator registriert wird.
+Daten eines Spielers werden erfasst, wenn dieser sich registriert, oder von einem Eventmaster registriert wird.
 Daten werden auch erfasst, solange der Spieler die Seiten des Spiels aufruft, d.h. zum Beispiel während er spielt.
 Sobald der Spieler die Seite verlässt, oder den Browser endgültig schließt, können von uns keine weiteren Daten über diesen
 entsprechenden Spieler erhoben werden.
@@ -85,6 +92,12 @@ Sessioncookie. Der alter Sessioncookie wird gelöscht. Der Sessioncookie wird au
 Die Session-IDs werden dauerhaft auf dem Server gespeichert.
 
 ### 2.2 Die Webseite
-
+Die Webseite umfasst alle Seiten auf "{{ site.url }}", d.h. auf deren Unterseiten.
+Wir sammeln grundsätzlich keine personenbezogenen Daten auf der Webseite. Bitte beachte, dass die Seite durch [GitHub Pages](https://pages.github.com) mit
+[Jekyll](https://jekyllrb.com) bereitgestellt wird.
 
 ## 3. Deine Rechte
+Nach DSGV hast du das Recht auf Einsicht, Änderung und Löschung deiner Daten. Da wird auf der Webseite keine Daten erheben, können wir dieses Recht dort nicht geltend machen.
+Bezüglich des Spiels kannst du dir die Daten schicken lassen, die wir über dich gespeichert haben und sie bei bedarf korrigieren oder löschen lassen. Sende uns dazu eine Email
+an [readytogoout.games@gmail.com](mailto:readytogoout.games@gmail.com).
+Beachte, dass wir für das Spiel nur Daten sammeln, die technisch notwendig sind, lässt du sie also löschen, kannst du nicht mehr am Spiel teilnehmen.
