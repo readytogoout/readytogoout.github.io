@@ -18,4 +18,7 @@ statt. Nachdem wir als Vorbereitungsteam des G-Spiels nach dessen Druchführung
 viel positive Rückmeldung bekamen, wollten wir das Projekt weiterleben lassen.
 
 Beim Geländespiel spielen verschiedene Teams zusammen, ohne sich im echten Leben
-zu begegnen.
+zu begegnen. Dazu können sich Spieler in den Teams zu etwa fünf Personen zusammenfinden.
+Gemeinsam werden sie in die Story eingeführt und melden sich am Handy in einem
+von uns unterstützten Browser an. Zusätzlich wird GPS am Handy eingeschaltet, und der
+Standort

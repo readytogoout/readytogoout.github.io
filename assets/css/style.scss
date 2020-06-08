@@ -3,17 +3,69 @@
 
 @import "{{ site.theme }}";
 
-body, h1, h2, h3, h4, h5, h6 {
-  background-color: #263e55;
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.bg {
+  position: fixed;
+  opacity: 10%;
+  width: 100vw;
+  height: 100vh;
+  background: url("/assets/img/watercolor_map.jpeg");
+  background-clip: content-box;
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: repeat;
+  animation: animate 500s cubic-bezier(0.32, -0.47, 0.78, 1.52) infinite;
+}
+
+@keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100vw 200vh;
+  }
+}
+
+@media (min-width: 1580px) {
+  .container-fluid {
+    width: calc(100vw - 25rem);
+    padding-top: 0;
+  }
+}
+
+section {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  background-color: none;
   color: #f6fbe9;
+}
+
+p:active, h1:active, h2:active, h3:active, h4:active, h5:active, h6:active {
+  color: #bbe441;
 }
 
 strong {
   color: #f6fbe9;
 }
 
-a {
+a, a:focus {
   color: #bbe441;
+}
+
+a:focus {
+  outline-color: inherit;
+  outline-style: dashed;
+  outline-width: thin;
 }
 
 a:hover {
@@ -21,8 +73,13 @@ a:hover {
   font-weight: normal;
 }
 
+.btn-primary {
+  background-color: #263e55;
+  border-color: #263e55;
+}
+
 .card {
-  background-color: inherit;
+  background-color: #263e55;
   box-shadow: #172533 0px 5px 5px;
 }
 
@@ -39,10 +96,23 @@ a:hover {
   border-color: #172533;
 }
 
-.list-group-item-action:hover {
+.list-group-item-action:hover,
+.list-group-item-action:focus {
   background-color: #172533;
 }
 
-header {
-  margin-bottom: 1.5rem;
+.sidebar-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.position-sticky {
+  top: 50px;
+}
+
+.hrow {
+  height: 100vh;
 }
