@@ -30,7 +30,7 @@
             <div class="sticky-item row">
               <div class="col-6 col-lg-12">
                 {% if site.logo %}
-                  <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
+                  <a href="{{ "/" | relative_url }}"><img src="{{ site.logo | relative_url }}" alt="Logo" /></a>
                 {% endif %}
 
                 <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -53,15 +53,16 @@
               </div>
 
               <div class="col-6 col-lg-12">
-                {% for tag in site.tags %}
-                  {% if tag[0] == "site" %}
-                    <div class="list-group">
+                <div class="list-group">
+                  <a class="list-group-item list-group-item-action bg-green color-blue" href="#">Los geht's!</a>
+                  {% for tag in site.tags %}
+                    {% if tag[0] == "site" %}
                       {% for post in tag[1] %}
                         <a class="list-group-item list-group-item-action {% if page.url == post.url %}active{% endif %}" href="{{ post.url }}">{{ post.title }}</a>
                       {% endfor %}
-                    </div>
-                  {% endif %}
-                {% endfor %}
+                    {% endif %}
+                  {% endfor %}
+                </div>
               </div>
             </div>
           </div>
