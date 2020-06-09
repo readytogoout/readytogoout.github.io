@@ -12,7 +12,7 @@ layout: default
     Du möchtest in deiner Gruppenstunde oder bei einem anderen Event mit vielen Leuten spielen, und schonmal
     alle anmelden? Dann, worauf wartest du?
   </p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Los geht's!</a>
+  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#anfragemodal">Los geht's!</button>
 </div>
 
 

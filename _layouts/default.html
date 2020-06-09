@@ -22,6 +22,105 @@
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
   </head>
   <body class="bg-blue color-white">
+
+    <!-- Modal -->
+    <div class="modal fade" id="anfragemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Sende uns eine Anfrage für ein Event!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <form action="http://mailsender.readytogoout.games" method="post" class="needs-validation" novalidate>
+            <div class="modal-body">
+              <div class="form-row">
+                <div class="form-group col-6">
+                  <label for="first_name" class="col-form-label">Dein Vorname</label>
+                  <input type="text" class="form-control" id="first_name" name="first_name" placeholder="damit wir wissen, wer du bist" required>
+                  <div class="valid-feedback">
+                    Das ist schonmal gut.
+                  </div>
+                  <div class="invalid-feedback">
+                    Bitte verrate uns erst deinen Vornamen.
+                  </div>
+                </div>
+                <div class="form-group col-6">
+                  <label for="last_name" class="col-form-label">Dein Nachname</label>
+                  <input type="text" class="form-control" id="last_name" name="last_name" placeholder="damit wir wissen, wer du wirklich bist" required>
+                  <div class="valid-feedback">
+                    Das ist schonmal gut.
+                  </div>
+                  <div class="invalid-feedback">
+                    Bitte verrate uns erst deinen Nachnamen.
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-6">
+                  <label for="email" class="col-form-label">Deine Email-Adresse</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="damit wir dich kontaktieren können" required>
+                  <div class="valid-feedback">
+                    Das ist schonmal gut.
+                  </div>
+                  <div class="invalid-feedback">
+                    Bitte verrate uns erst deine Email-Adresse.
+                  </div>
+                </div>
+                <div class="form-group col-6">
+                  <label for="persons" class="col-form-label">Wie viele Menschen werden das Spiel ungefähr spielen?</label>
+                  <select class="form-control" id="persons" name="persons" required>
+                    <option selected value="0">weniger als 5</option>
+                    <option value="1">5-20</option>
+                    <option value="2">20-50</option>
+                    <option value="3">mehr als 50</option>
+                  </select>
+                  <div class="valid-feedback">
+                    Das ist schonmal gut.
+                  </div>
+                  <div class="invalid-feedback">
+                    Bitte verrate uns erst, wie viele Menschen mitspielen.
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-12">
+                  <label for="message" class="col-form-label">Weiteres, dass du gerne mitteilen möchtest, oder das wir beachten sollen findet hier seinen Platz</label>
+                  <textarea class="form-control" id="message" name="message"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+              <input type="submit" name="submit" class="btn btn-primary" value="Absenden">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+    </script>
+
     <div class="bg"></div>
 
     <div class="container-fluid">
@@ -55,7 +154,7 @@
 
               <div class="col-6 col-lg-12">
                 <div class="list-group">
-                  <a class="list-group-item list-group-item-action bg-green color-blue" href="#">Los geht's!</a>
+                  <button type="button" class="list-group-item list-group-item-action bg-green color-blue" data-toggle="modal" data-target="#anfragemodal">Los geht's!</button>
                   <a class="list-group-item list-group-item-action {% if page.url == "/" %}active{% endif %}" href="/">Startseite</a>
                   {% for tag in site.tags %}
                     {% if tag[0] == "site" %}

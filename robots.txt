@@ -1,0 +1,4 @@
+Sitemap: https://readytogoout.games/sitemap.xml
+
+User-Agent: *
+Disallow: /mailsuccess
