@@ -21,4 +21,11 @@ Beim Geländespiel spielen verschiedene Teams zusammen, ohne sich im echten Lebe
 zu begegnen. Dazu können sich Spieler in den Teams zu etwa fünf Personen zusammenfinden.
 Gemeinsam werden sie in die Story eingeführt und melden sich am Handy in einem
 von uns unterstützten Browser an. Zusätzlich wird GPS am Handy eingeschaltet, und der
-Standort
+Standort für den Browser und die Webseite freigegeben. Dann legt der Spieler fest, wo er
+sein Spiel beginnen möchte. In der Regel ist das das Zuhause. Dann kann es losgehen.
+
+Der Spieler interagiert mit NPCs und schaltet so neue Interaktionen für sein Team frei.
+Er erfüllt Quests für sein Team und kann Items für sein Team kaufen kaufen.
+Nähreres zum eigentlichen Ablauf des Spiels erfährst du unter "[das Spiel](/das-spiel/)".
+Dabei folgt der Spieler und sein Team einer vorher festgelegten Stroy, die sich unser
+Storyteam ausgedacht hat.

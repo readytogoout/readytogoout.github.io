@@ -50,6 +50,7 @@ body {
   padding: 0;
   margin: 0;
   overflow-y: scroll;
+  font-size: 1rem;
 }
 
 .bg {
@@ -97,4 +98,22 @@ h1 {
 
 .b-0 {
   bottom: 0;
+}
+
+.profile-image {
+  position: relative;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 100px;
+  border-color: #bbe441;
+  border-width: 5px;
+  border-style: solid;
+  box-shadow: #172533 0px 10px 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nooutline, .nooutline:focus {
+  outline: none;
+  border: none;
 }

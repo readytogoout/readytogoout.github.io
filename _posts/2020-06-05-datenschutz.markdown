@@ -99,5 +99,5 @@ Wir sammeln grundsätzlich keine personenbezogenen Daten auf der Webseite. Bitte
 ## 3. Deine Rechte
 Nach DSGV hast du das Recht auf Einsicht, Änderung und Löschung deiner Daten. Da wird auf der Webseite keine Daten erheben, können wir dieses Recht dort nicht geltend machen.
 Bezüglich des Spiels kannst du dir die Daten schicken lassen, die wir über dich gespeichert haben und sie bei bedarf korrigieren oder löschen lassen. Sende uns dazu eine Email
-an [readytogoout.games@gmail.com](mailto:readytogoout.games@gmail.com).
+an [{{site.email}}](mailto:{{site.email}}).
 Beachte, dass wir für das Spiel nur Daten sammeln, die technisch notwendig sind, lässt du sie also löschen, kannst du nicht mehr am Spiel teilnehmen.
