@@ -17,12 +17,16 @@ layout: default
 
 
 <div>
-  {% for post in site.posts %}
+{% for tag in site.tags %}
+  {% if tag[0] == "site" %}
+    {% for post in tag[1] %}
     <div class="card my-4">
       <h5 class="card-header">{{ post.title }}</h5>
       <div class="card-body">
         {{ post.excerpt }}<a href="{{ post.url }}">mehr lesen...</a>
       </div>
     </div>
-  {% endfor %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
 </div>

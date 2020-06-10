@@ -26,7 +26,7 @@
     <!-- Modal -->
     <div class="modal fade" id="anfragemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-xl">
-        <div class="modal-content">
+        <div class="modal-content bg-blue">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Sende uns eine Anfrage für ein Event!</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -92,8 +92,8 @@
               </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
-              <input type="submit" name="submit" class="btn btn-primary" value="Absenden">
+              <button type="button" class="btn btn-secondary bg-darkblue" data-dismiss="modal">Schließen</button>
+              <input type="submit" name="submit" class="btn btn-primary bg-green color-darkblue" value="Absenden">
             </div>
           </form>
         </div>
@@ -169,6 +169,8 @@
           </div>
         </header>
         <section class="col-12 col-lg-9 mb-5">
+          <iframe width="100%" class="mb-3" style="filter: opacity(0.3);" src="https://webuhr.de/embed/timer/#date=2020-07-06&title=Beta+Launch&theme=0&ampm=0&sound=xylophone" frameborder="0"></iframe>
+
           {{ content }}
         </section>
 
