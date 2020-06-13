@@ -7,9 +7,9 @@ tag: site
 ---
 
 Das Projekt ist durch Gelder der betreuenden Pfadfinderschaften und Spenden finanziert.
-Wir haben somit kein Interesse und keine Motivation, die gesammelten personenbezogenen Daten
+__Wir haben somit kein Interesse und keine Motivation, die gesammelten personenbezogenen Daten
 weiterzugeben, zu verkaufen, anderweitig zu vertreiben oder für andere Zwecke als
-das Geländespiel zu verwenden, und werden dies somit auch nicht tun.
+das Geländespiel zu verwenden, und werden dies somit auch nicht tun.__
 
 Hier sind dazu trotzdem die notwendigen Informationen über die Datenerhebung und -verarbeitung zusammengetragen.
 Die Daten werden generell vertraulich behandelt, und es erhalten nur Mitglieder des Projektteams Zugriff auf die
@@ -47,12 +47,12 @@ Self-hosted-events werden vermutlich bald folgen. Nur Spieler, die Mitglied eine
 
 ## 2. Gesammelte Daten
 Generell muss unterschieden werden, zwischen dem Spiel und dieser Webseite. Besucher der Webseite geben andere Daten preis,
-als Spieler des Geländespiels. Beim Besuchen der Webseite müssen und werden i.d.R. auch keine Daten preisgegeben, die man zum Spielen des
+als Spieler des Geländespiels. Beim Besuchen der Webseite werden keine Daten preisgegeben, die man zum Spielen des
 Geländespiels preisgeben muss und umgekehrt. Diese Dinge sind völlig unabhängig voneinander.
 
-Die zu erhebenden Daten werden von uns "minimalistisch" gesammelt, d.h. wir erheben nur die Daten, die tatsächlich technisch erforderlich sind.
-Die personenbezogenen Daten werden von uns weder veröffentlicht, noch verkauft, in anonymisierter Form verwenden wir jeodch einige Daten, um Statistiken
-zu erstellen.
+Die zu erhebenden Daten werden von uns "minimalistisch" gesammelt, d.h. __wir erheben nur die Daten, die tatsächlich technisch erforderlich sind.__
+Die personenbezogenen Daten werden von uns __weder veröffentlicht, noch verkauft, in anonymisierter Form verwenden wir jeodch einige Daten, um Statistiken
+zu erstellen.__
 
 ### 2.1 Das Spiel "ready to go out"
 "Das Spiel" umfasst alle Webseiten und Links, die zum Geländespiel "ready to go out" gehören.
@@ -71,7 +71,7 @@ der Spieler zusätzlich gerade die Seite des Geländespiels im Browser offen hab
 von uns nicht mehr erfasst.
 
 Standortdaten können nach Bedarf an den Server geschickt werden, um dort verarbeitet zu werden, der Großteil passiert allerdings auf dem Handy des Spielers.
-Es wird kein Standortprofil o.ä. dauerhaft auf dem Server gespeichert. Alle Standortdaten des Spielers sind temporär.
+Es wird kein Standortprofil o.ä. dauerhaft auf dem Server gespeichert. __Alle Standortdaten des Spielers sind temporär.__
 
 #### 2.1.3 Anschrift
 Zum Anfang des Spiels muss der Spieler festlegen, wo er wohnt. Das ist notwendig, um von dort aus NPCs im Umkreis zu generieren.
@@ -79,7 +79,7 @@ Der Ort muss nicht zwingend das wirkliche Zuhause des Spielers sein, sondern kan
 Zur Not kann der Spieler den Ort seines Zuhauses im Spiel auch während des Spiels ändern, muss allerdings hinnehmen, dass dementsprechend auch alle
 NPCs, die er (oder sein Team) bereits freigeschaltet hat ebenfalls vom Spiel neu platziert werden.
 
-Der als Zuhause festgelegte Punkt auf der Karte wird solange auf dem Server gespeichert, bis das Konto des Spielers gelöscht wird.
+__Der als Zuhause festgelegte Punkt auf der Karte wird solange auf dem Server gespeichert, bis das Konto des Spielers gelöscht wird.__
 
 #### 2.1.4 Eindeutige Sitzungs-ID (Sessioncookie)
 Wir verwenden Cookies, um Spieler wiederzuerkennen. Dazu wird einem Spieler - sobald er sich einloggt - ein eindeutiger,
@@ -92,9 +92,13 @@ Sessioncookie. Der alter Sessioncookie wird gelöscht. Der Sessioncookie wird au
 Die Session-IDs werden dauerhaft auf dem Server gespeichert.
 
 ### 2.2 Die Webseite
-Die Webseite umfasst alle Seiten auf "{{ site.url }}", d.h. auf deren Unterseiten.
-Wir sammeln grundsätzlich keine personenbezogenen Daten auf der Webseite. Bitte beachte, dass die Seite durch [GitHub Pages](https://pages.github.com) mit
+Die Webseite umfasst alle Seiten auf "{{ site.url }}", d.h. auch deren Unterseiten.
+__Wir sammeln grundsätzlich keine personenbezogenen Daten auf der Webseite.__ Bitte beachte, dass die Seite durch [GitHub Pages](https://pages.github.com) mit
 [Jekyll](https://jekyllrb.com) bereitgestellt wird.
+
+#### 2.2.1 Anfrage für ein Event
+Wenn du auf "Los geht's" klickst und das Formular bestätigst, werden die im Formular angegebenen Daten an uns übermittlet, und zur
+Verarbeitung der Anfrage gespeichert und ausgewertet. __Die Daten werden ausschließlich für das G-Spiel verwendet.__
 
 ## 3. Deine Rechte
 Nach DSGV hast du das Recht auf Einsicht, Änderung und Löschung deiner Daten. Da wird auf der Webseite keine Daten erheben, können wir dieses Recht dort nicht geltend machen.

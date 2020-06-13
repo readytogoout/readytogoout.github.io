@@ -6,4 +6,30 @@ permalink: "/das-spiel/"
 tag: site
 ---
 
-//Infos übers Spiel
+Das Spiel läuft folgendermaßen ab. Die Spieler werden in Teams aufgeteilt, die jeweils
+unabhängig voneinander versuchen, das Spiel zu beenden. Das Spiel soll generell zum Austausch
+und zur Kommunikation, da sich die Spieler aufgrund der aktuellen Lage bezüglich Corona nicht treffen können.
+Einen Gewinner oder ein Gewinnerteam gibt es daher nicht. Es wäre schade, wenn die durch das
+Spiel möglich gemachte Interaktion durch ständiges Vergleichen mit Mitspielern geprägt wäre.
+Es können im Nachhinein Zeiten oder Statistiken der Teams verglichen werden. Oder die Spieler
+tauschen sich über die von ihnen verfolgte Strategie aus.
+
+Das Spiel orientiert sich an einer von uns entwickelten Story, die die Spieler von der Anmeldung
+bis zum beenden des Spiels begleitet. Die Story hat einen Aufhänger, um zu Beginn das Ziel
+des Spiels klarzustellen. Dabei handelt es sich um eine fiktive Gefahr, die dann
+unter Kontrolle gebracht werden muss. Ist diese Aufgabe vom Team gemeistert - wie auch
+immer es das tut, ist das Spiel für dieses Team vorbei und sie haben es erfolgreich
+abgeschlossen.
+
+Nach dem Einloggen muss der Spieler zunächst festlegen, wo er das Spiel auf der Karte spielen möchte.
+Dieses festlegen des Startpunkts erfolgt auf der Seite des Spiels. Vorher kann der Spieler nicht losspielen,
+da dieser Startpunkt für die weiteren Schritte essenziell ist. Der Startpunkt wird standardmäßig auf den
+aktuellen Standort des Spielers gesetzt, kann aber durch Ziehen auf der Karte angepasst werden, und wird
+zuletzt durch einen Klick auf den entsprechenden Knopf bestätigt. Typischerweise sollte der Startpunkt
+auf den Standort des eigenen Zuhauses festgelegt werden.
+
+Ist der Startpunkt festgelegt, werden im nächsten Schritt sog. NPCs in einem Umkreis von einigen
+hundert Metern um diesen Startpunkt generiert. Ein NPC ist dabei ein fiktiver Charakter auf der Karte.
+NPCs haben für den Spieler eine eindeutige Position, die sich im Laufe des Spiels nicht ändert.
+Jedoch ist deren Position dort für jeden Spieler unterschiedlich.
+Der selbe Charakter befindet sich für jeden Spieler irgendwo im Umkreis um sein Zuhause.

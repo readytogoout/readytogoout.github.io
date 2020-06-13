@@ -28,4 +28,6 @@ Der Spieler interagiert mit NPCs und schaltet so neue Interaktionen für sein Te
 Er erfüllt Quests für sein Team und kann Items für sein Team kaufen kaufen.
 Nähreres zum eigentlichen Ablauf des Spiels erfährst du unter "[das Spiel](/das-spiel/)".
 Dabei folgt der Spieler und sein Team einer vorher festgelegten Stroy, die sich unser
-Storyteam ausgedacht hat.
+Storyteam ausgedacht hat. So wird das Geländespiel durchgespielt und bereitet den Spielenden
+eine hoffentlich tolle und interessante Zeit mit Interaktion mit den Mitspielern.
+Auch wenn diese aktuell vielleicht viele Kilometer weit entfernt sind.
